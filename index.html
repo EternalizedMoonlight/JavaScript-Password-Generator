@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body class="background">
+    <center>
+        <div class="container">
+            <div class="content">
+                <h1><b>Password Generator</b></h1> <br>
+                <input type="text" class="textfield" id="textfield" readonly> <br>
+                <button class="generatebtn" onclick="generatePassword()"><b>Generate Password</b></button>
+                <button class="copybtn" onclick="copyPassword()"><b>Copy Password</b></button>
+                <input type="range" class="slider" id="slider" min="0" max="30">
+                <h4 class="length" id="lengthlabel">Length: 15</h4>
+            </div>
+        </div>
+    </center>
+</body>
+</html>
